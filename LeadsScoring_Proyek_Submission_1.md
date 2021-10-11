@@ -3,9 +3,12 @@
 
 ## Domain Proyek
 
+
 Domain proyek yang dipilih dalam proyek machine learning ini adalah mengenai Business dan Industri dengan judul proyek "Leads Scoring Prediction".
+
 ![alt text](https://miro.medium.com/max/467/1*roT_nhFL9cdR5Dg0QfLR5A.png)
 
+- Latar Belakang
 
 Machine learning termasuk dalam artificial intelligence (AI). Sama seperti arti harfiahnya, teknologi machine learning dapat mengembangkan kemampuannya dengan mempelajari data empiris. Kini, teknologi ini dapat diterapkan dalam berbagai sektor industri, seperti dalam bisnis industri. Dalam dunia bisnis terdapat persaingan yang sangat ketat, dengan menggunakan data science para pebisnis dapat dibantu dalam mengambil keputusan/strategi  yang tepat dengan menggunakan data historis yang mereka miliki.
 
