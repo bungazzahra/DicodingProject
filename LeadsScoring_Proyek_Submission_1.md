@@ -99,5 +99,5 @@ Asymmetrique Profile Score|An index and score assigned to each customer based on
 I agree to pay the amount through cheque|Indicates whether the customer has agreed to pay the amount through cheque or not.|
 a free copy of Mastering The Interview|Indicates whether the customer wants a free copy of 'Mastering the Interview' or not.|
 Last Notable Activity|The last notable acitivity performed by the student.|
-![image](https://user-images.githubusercontent.com/73678966/136821290-6bcec9f2-8686-4f3a-94cb-dc8b519417c2.png)
+
 
