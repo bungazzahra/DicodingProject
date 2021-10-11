@@ -59,3 +59,43 @@ Data yang digunakan merupakan data Lead Conversion dataset dari Kaggle. kumpulan
 Sumber data : https://www.kaggle.com/ashydv/leads-dataset
 
 Variabel data :
+
+| Variables| Heading 2 | Heading 3 |  
+|-----------|:-----------:|-----------:|  
+| Prospect ID|
+|Lead Number|
+|Lead Origin|
+Lead Source|
+Do Not Email|
+Do Not Call|
+Converted|
+TotalVisits|
+Total Time Spent on Website|
+Page Views Per Visit|
+Last Activity|
+Country|
+Specialization|
+How did you hear about X Education|
+What is your current occupation|
+What matters most to you in choosing this course|
+Search|
+Magazine|
+Newspaper Article|
+X Education Forums|
+Newspaper|
+Digital Advertisement|
+Through Recommendations|
+Receive More Updates About Our Courses|
+Tags|
+Lead Quality|
+Update me on Supply Chain Content|
+Get updates on DM Content|
+Lead Profile|
+City
+Asymmetrique Activity Index|
+Asymmetrique Profile Index|
+Asymmetrique Activity Score|
+Asymmetrique Profile Score|
+I agree to pay the amount through cheque|
+a free copy of Mastering The Interview|
+Last Notable Activity|
