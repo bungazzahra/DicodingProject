@@ -127,6 +127,36 @@ Karena pada data tersebut terdapat banyak sekali variabel yang memiliki nilai nu
    
    - Mengatasi data yang tidak seimbang jumlahnya dengan label lain menggunakan teknik resample menggunakan SMOTE
   Target data yang kita miliki memiliki data yang tidak seimbang jumlahnya, sehingga untuk mengasilkan peforma model yang baik diperlukan melakukan teknik resampling data menggunkan SMOTE. Metode SMOTE merupakan salah satu teknik oversampling yang akan menambah jumlah data kelas minor agar setara dengan kelas mayor dengan cara membangkitkan data buatan. Data buatan atau sintesis tersebut dibuat berdasarkan k-tetangga terdekat (k-nearest neighbor).
+  
+  ## Modelling
+  
+  Setelah melakukan pra-pemrosesan data yang baik pada tahap modeling akan dilakukan dua hal, yakni tahap pembuatan model baseline dan pembuatan model yang dikembangkan.
+  
+ - Cek Model classification terbaik
+ Pada tahap ini dicoba beberapa model untuk mengetahui model mana yang paling baik dalam memprediksi leads, Sehingga kita bisa menentukan model yang paling baik akan di kembangkan nantinya.
+ 
+ ![image](https://user-images.githubusercontent.com/73678966/136874013-3870827f-f3c8-49fe-a781-b7925d063ef9.png)
+ 
+ Dengan menggunakan teknik SMOTE model terbaik yang dihasilkan dalam memprediksi leads adalah XGBClassifier.
+ 
+ - Baseline model
+ Pada tahap ini saya membuat model dasar dengan menggunakan modul scikit-learn yakni XGBClassifier tanpa menggunakan parameter tambahan. Lalu melakukan prediksi kepada data ujinya.
+ 
+ - Model yang dikembangkan
+ Pada tahap ini saya melakukan hyperparameter tunning dengan menggunakan GridSearchCV dalam menentukan parameter terbaik untuk model XGBClassifier dalam memprediksi target.
+ 
+ Hasilnya dapat dilihat sebagai berikut:
+ 
+ 1. Model Baseline
+ ![image](https://user-images.githubusercontent.com/73678966/136874417-e50bb7dc-6169-470b-89ac-68758713def7.png)
+ 
+ 2. Model Hyperparameter Tunning
+ ![image](https://user-images.githubusercontent.com/73678966/136874495-fee70eb2-4dff-4dbd-a0b5-40ed12a646a0.png)
+ 
+ 
+
+
+
 
 
 
