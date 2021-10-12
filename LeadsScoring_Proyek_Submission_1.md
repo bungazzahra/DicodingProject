@@ -169,7 +169,50 @@ Karena pada data tersebut terdapat banyak sekali variabel yang memiliki nilai nu
  
  Pada hasil tersebut tidak ada perbedaan yang sangat signifikan dari nilai akurasi tersebut.
  
- - 
+Pada proyek ini, model yang dibuat merupakan kasus klasifikasi dan menggunakan metriks akurasi, f1-score, recall dan precision.
+Berikut merupakan penjelasan dari masing masing metrics yang digunakan :
+
+1. Accuracy
+Merupakan rasio prediksi Benar (positif dan negatif) dengan keseluruhan data. Akurasi menjawab pertanyaan “Berapa persen customer yang benar diprediksi Leads dan Tidak Leads dari kesuluruhan Customer”
+![image](https://user-images.githubusercontent.com/73678966/136875507-5bdf8d70-de1d-490d-a177-3eaa59704c1d.png)
+
+Kelebihan dari metriks ini adalah sering digunakan dalam kasus pembuatan model klasifikasi baik itu klasifikasi dua kelas, atau kategori. Kekurangan dari metrik ini adalah dapat bersifat 'menyesatkan' pada data yang tidak seimbang.
+
+2. Precission
+Merupakan rasio prediksi benar positif dibandingkan dengan keseluruhan hasil yang diprediksi positf. Precission menjawab pertanyaan “Berapa persen mahasiswa yang benar Leads dari keseluruhan Customer yang diprediksi Leads?”
+![image](https://user-images.githubusercontent.com/73678966/136875752-5cf0cfab-5ca2-4767-b299-aafd393351f3.png)
+
+Kelebihan dari metriks ini berfokus pada bagaimana performa (prediksi) model terhadap label data positif, kekurangannya metriks ini tidak memperhitungkan label negatifnya.
+
+3. Recall (Sensitifitas)
+Merupakan rasio prediksi benar positif dibandingkan dengan keseluruhan data yang benar positif. Recall menjawab pertanyaan “Berapa persen customer yang diprediksi Leads dibandingkan keseluruhan customer yang sebenarnya Leads”.
+![image](https://user-images.githubusercontent.com/73678966/136878406-dcc52af2-b40c-408c-abd9-67bc2d43edb9.png)
+
+Kelebihan dari metriks ini menghitung bagian negatif dari prediksi label positif (tidak seperti precision). Tetapi kekurangannya ketika semua prediksi = 1 maka recall akan bernilai 1 (tidak memperhitungkan prediksi negatif).
+
+4. F1 Score
+F1 Score merupakan perbandingan rata-rata presisi dan recall yang dibobotkan
+
+![image](https://user-images.githubusercontent.com/73678966/136878665-b88a4f73-e795-4027-a886-19e2eb6f935e.png)
+
+Kelebihan dari metriks ini menutup semua kekurangan yang ada pada precision dan recall. Namun kekurangannya adalah f1-score tidak memperhitungkan hasil prediksi benar pada label negatif.
+
+## Referensi 
+
+[[1](https://towardsdatascience.com/predict-lead-score-the-right-way-using-pycaret-332faa780cfc)]
+
+[[2](https://vidhutandon.medium.com/lead-conversion-score-prediction-using-python-a65d5bb7ccff)]
+
+[[3](https://rey1024.medium.com/mengenal-accuracy-precission-recall-dan-specificity-serta-yang-diprioritaskan-b79ff4d77de8)]
+
+[[4](https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/)]
+
+[[4](https://www.kaggle.com/felipefiorini/xgboost-hyper-parameter-tuning)]
+
+
+
+
+
  
  
 
