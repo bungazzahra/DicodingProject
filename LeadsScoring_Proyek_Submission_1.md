@@ -113,6 +113,21 @@ Karena pada data tersebut terdapat banyak sekali variabel yang memiliki nilai nu
   - Mengisi nilai yang kosong dengan nilai median jika variabel numerik karena variabel numerik tersebut memiliki distrivusi right skewed
 
 ![image](https://user-images.githubusercontent.com/73678966/136870427-0cc63ae5-f21c-44e8-93a4-66e38fbbb415.png)
+2. Feature Engeneering
+  - Menghapus variabel yang memiliki variasi yang sedikit
+3. Persiapan data untuk modelling
+  - Melakukan One-Hot- Encoding untuk data categorical
+  One-Hot-Encode adalah proses untuk membuat kolom baru dari variabel kategorikal kita di mana setiap kategori menjadi kolom baru dengan nilai 0 atau 1 (0 mewakili tidak ada dan 1 mewakili ada). Tahapan ini dilakukan karena banyak teknik statistik atau persamaan machine learning yang hanya menerima nilai numerik, bukan nilai kategorik.
+  - Melakukan pembagian dataset menjadi dua bagian dengan rasio 70% untuk data latih dan 30% untuk data uji
+   Tahap ini dilakukan agar kita bisa menguji model kita menggunakan data train dan dataset sehingga model yang dihasilkan dapat memiliki performa yang sama baiknya pada data uji seperti pada data latih. 
+   - Melakukan Standarisasi
+   Tahap terakhir dengan melakukan standarisasi data. Hal ini akan membuat semua fitur numerik berada dalam skala data yang sama juga membuat komputasi dari pembuatan model dapat berjalan lebih cepat. Metode yang digunakan adalah StandarsScaler, sehingga data memiliki nilai mean 0 dan nilai standar deviasi adalah 1.
+   
+   ![image](https://user-images.githubusercontent.com/73678966/136871347-26bcba4a-4fea-47b7-afae-aefbbac5c162.png)
+   
+   - Mengatasi data yang tidak seimbang jumlahnya dengan label lain menggunakan teknik resample menggunakan SMOTE
+  Target data yang kita miliki memiliki data yang tidak seimbang jumlahnya, sehingga untuk mengasilkan peforma model yang baik diperlukan melakukan teknik resampling data menggunkan SMOTE. Metode SMOTE merupakan salah satu teknik oversampling yang akan menambah jumlah data kelas minor agar setara dengan kelas mayor dengan cara membangkitkan data buatan. Data buatan atau sintesis tersebut dibuat berdasarkan k-tetangga terdekat (k-nearest neighbor).
+
 
 
 
