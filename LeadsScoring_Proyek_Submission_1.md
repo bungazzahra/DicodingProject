@@ -100,4 +100,18 @@ I agree to pay the amount through cheque|Indicates whether the customer has agre
 a free copy of Mastering The Interview|Indicates whether the customer wants a free copy of 'Mastering the Interview' or not.|
 Last Notable Activity|The last notable acitivity performed by the student.|
 
+## Data Preparation
+
+Seperti yang disebutkan di Solution Statement, berikut adalah tahapan-tahapan dalam melakukan pra-pemrosesan data :
+1. Handling Missing Values
+![image](https://user-images.githubusercontent.com/73678966/136870223-5a4ce174-961b-4185-a452-56725e277fa9.png)
+Karena pada data tersebut terdapat banyak sekali variabel yang memiliki nilai null, maka untuk mengatasinya dilakukan beberapa tahap untuk mengatasinya
+  - Menghapus variabel yang nilai missing valuesnya > 30%
+  - Mengisi nilai yang kosong dengan nilai terbanyak jika merupakan variabel categoric
+  - Mengisi nilai yang kosong dengan nilai median jika variabel numerik karena variabel numerik tersebut memiliki distrivusi right skewed
+
+![image](https://user-images.githubusercontent.com/73678966/136870427-0cc63ae5-f21c-44e8-93a4-66e38fbbb415.png)
+
+
+
 
