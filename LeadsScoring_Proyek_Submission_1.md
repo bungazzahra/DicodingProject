@@ -106,6 +106,7 @@ Seperti yang disebutkan di Solution Statement, berikut adalah tahapan-tahapan da
 1. Handling Missing Values
 
 ![image](https://user-images.githubusercontent.com/73678966/136870223-5a4ce174-961b-4185-a452-56725e277fa9.png)
+
 Karena pada data tersebut terdapat banyak sekali variabel yang memiliki nilai null, maka untuk mengatasinya dilakukan beberapa tahap untuk mengatasinya
   - Menghapus variabel yang nilai missing valuesnya > 30%
   - Mengisi nilai yang kosong dengan nilai terbanyak jika merupakan variabel categoric
