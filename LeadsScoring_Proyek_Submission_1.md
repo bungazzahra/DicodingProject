@@ -201,15 +201,15 @@ Kelebihan dari metriks ini menutup semua kekurangan yang ada pada precision dan 
 
 [[1]()] https://towardsdatascience.com/predict-lead-score-the-right-way-using-pycaret-332faa780cfc
 
-[[2](https://vidhutandon.medium.com/lead-conversion-score-prediction-using-python-a65d5bb7ccff)]
+[[2]()] https://vidhutandon.medium.com/lead-conversion-score-prediction-using-python-a65d5bb7ccff
 
-[[3](https://rey1024.medium.com/mengenal-accuracy-precission-recall-dan-specificity-serta-yang-diprioritaskan-b79ff4d77de8)]
+[[3]()] https://rey1024.medium.com/mengenal-accuracy-precission-recall-dan-specificity-serta-yang-diprioritaskan-b79ff4d77de8
 
-[[4](https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/)]
+[[4]()] https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/
 
-[[4](https://www.kaggle.com/felipefiorini/xgboost-hyper-parameter-tuning)]
+[[4]()] https://www.kaggle.com/felipefiorini/xgboost-hyper-parameter-tuning
 
-
+---Ini adalah bagian akhir laporan---
 
 
 
