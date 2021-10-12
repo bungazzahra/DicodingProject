@@ -25,7 +25,7 @@ Sources : https://vidhutandon.medium.com/lead-conversion-score-prediction-using-
 
 ### Problem Statement
 Berangkat dari latar belakang diatas, berikut ini merupakan rincian masalah yang dapat diselesaikan pada proyek ini :
-- Bagaimana cara melakukan pra-pemrosesan data air agar dapat digunakan untuk membuat model yang baik?
+- Bagaimana cara melakukan pra-pemrosesan data leads agar dapat digunakan untuk membuat model yang baik?
 - Bagaimana cara membuat model untuk mengetahui customer yang memiliki kemungkinan besar tertarik pada layanan atau product yang kita miliki?
 
 ### Goals
