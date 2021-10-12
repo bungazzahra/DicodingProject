@@ -147,11 +147,29 @@ Karena pada data tersebut terdapat banyak sekali variabel yang memiliki nilai nu
  
  Hasilnya dapat dilihat sebagai berikut:
  
- 1. Model Baseline
+ ## Evaluasi
+ 
+   1. Model Baseline
+ 
  ![image](https://user-images.githubusercontent.com/73678966/136874417-e50bb7dc-6169-470b-89ac-68758713def7.png)
  
- 2. Model Hyperparameter Tunning
+ dengan Confussion Matriks sebagaik berikut :
+ 
+ ![image](https://user-images.githubusercontent.com/73678966/136874839-9598d8bb-375d-4148-bbaf-56ce554be3de.png)
+
+ 
+   2. Model Hyperparameter Tunning
+ 
  ![image](https://user-images.githubusercontent.com/73678966/136874495-fee70eb2-4dff-4dbd-a0b5-40ed12a646a0.png)
+ 
+  dengan Confussion Matriks sebagaik berikut :
+  
+  ![image](https://user-images.githubusercontent.com/73678966/136874920-072c9c28-85f8-4388-ac39-73c0639ba924.png)
+
+ 
+ Pada hasil tersebut tidak ada perbedaan yang sangat signifikan dari nilai akurasi tersebut.
+ 
+ - 
  
  
 
