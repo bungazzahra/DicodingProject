@@ -199,7 +199,7 @@ Kelebihan dari metriks ini menutup semua kekurangan yang ada pada precision dan 
 
 ## Referensi 
 
-[[1](https://towardsdatascience.com/predict-lead-score-the-right-way-using-pycaret-332faa780cfc)]
+[[1]()] https://towardsdatascience.com/predict-lead-score-the-right-way-using-pycaret-332faa780cfc
 
 [[2](https://vidhutandon.medium.com/lead-conversion-score-prediction-using-python-a65d5bb7ccff)]
 
